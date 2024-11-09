@@ -1,0 +1,15 @@
+/* styles.css */
+.container {
+  display: flex;
+  flex: 1; 
+  /*height: 1000vh; /* Full viewport height */
+ width: auto;
+}
+
+
+.modalcomponent{
+  background-color: rgb(68, 0, 255);
+  padding-left: 200px;
+  margin-left: 200px;
+ 
+}
