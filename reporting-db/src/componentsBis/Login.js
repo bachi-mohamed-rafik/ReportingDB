@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import Home from '../Home/Home';
 import { Box, Button, Flex, Input, Text } from '@chakra-ui/react';
-import NavBar from '../NavBar/NavBar';
-import MainPage from '../MainPage/MainPage';
+import MainPage from './MainPage/MainPage';
 
 const Login = () => {
   const [email, setEmail] = useState('');
